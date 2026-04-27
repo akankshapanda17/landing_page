@@ -101,9 +101,17 @@ body {
     background-color: #3882F6;
     color: white;
     padding: 32px 16px;
+    border-radius: 8px;
+     margin: 32px 16px;
 }
 
 .callToActionText{
     display: flex;
     flex-direction: column;
+}
+
+.callToActionButton{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: white solid 2px;
 }

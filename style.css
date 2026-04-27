@@ -10,6 +10,10 @@ body {
     color: #E5E7EB;
     font-size: 18px;
   }
+  img{
+    width: 100%;
+    height: auto;
+  }
   
   ul {
     list-style-type: none;
@@ -92,7 +96,7 @@ body {
 
 .callToAction{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 16px;
@@ -101,3 +105,7 @@ body {
     padding: 32px 16px;
 }
 
+.callToActionText{
+    display: flex;
+    flex-direction: column;
+}
